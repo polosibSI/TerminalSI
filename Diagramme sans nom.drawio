@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T14:52:55.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.5" etag="2GIfJtMrvDJQ1F7IQh2P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T14:55:07.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MEKpYKVN4AyxPNVN3uBY" version="21.1.5" type="github">
   <diagram name="Page-1" id="01yBWUGvolju1bEx7dIv">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wbF5UutYFp_3wk20_LOU-1" value="Chaine d&#39;information&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="450" height="150" as="geometry">
+            <mxRectangle x="70" y="160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbF5UutYFp_3wk20_LOU-2" value="Chaine d&#39;énergie&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
