@@ -17,3 +17,20 @@ while True:
     pin0.write_analog(niveau)
     sleep(20)
 ```
+
+```python
+ef set_servo_angle(pin, angle):
+    duty = 26 + (angle * 102) / 180
+    pin.write_analog(duty)
+
+angle = 90
+set_servo_angle(pin2, angle)
+
+while True:
+    if button_a.was_pressed() and angle >= 10:
+        angle -= 10
+        set_servo_angle(pin2, angle)
+    if button_b.was_pressed() and angle <= 170:
+        angle += 10
+        set_servo_angle(pin2, angle)
+```
