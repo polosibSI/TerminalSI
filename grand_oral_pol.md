@@ -17,20 +17,24 @@ while True:
     pin0.write_analog(niveau)
     sleep(20)
 ```
-
+code pince:
 ```python
-ef set_servo_angle(pin, angle):
+def set_servo_angle(pin, angle):
     duty = 26 + (angle * 102) / 180
     pin.write_analog(duty)
 
+pin0.set_analog_period(20)
+
 angle = 90
-set_servo_angle(pin2, angle)
+set_servo_angle(pin0, angle)
 
 while True:
     if button_a.was_pressed() and angle >= 10:
         angle -= 10
-        set_servo_angle(pin2, angle)
+        set_servo_angle(pin0, angle)
+        print(angle)
     if button_b.was_pressed() and angle <= 170:
         angle += 10
-        set_servo_angle(pin2, angle)
+        set_servo_angle(pin0, angle)
+        print(angle)
 ```
