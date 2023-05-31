@@ -38,3 +38,5 @@ while True:
         set_servo_angle(pin0, angle)
         print(angle)
 ```
+
+Engrenage pince : 100° de liberté
